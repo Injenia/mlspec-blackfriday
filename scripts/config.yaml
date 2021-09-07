@@ -1,0 +1,20 @@
+trainingInput:
+  hyperparameters:
+    goal: MINIMIZE
+    hyperparameterMetricTag: epoch_total_loss
+    maxTrials: 8
+    maxParallelTrials: 8
+    enableTrialEarlyStopping: False
+    params:
+    - parameterName: learning-rate
+      type: DISCRETE
+      discreteValues:
+      - 0.01
+      - 0.1
+    - parameterName: embedding-dim
+      type: DISCRETE
+      discreteValues:
+      - 16
+      - 32
+      - 64
+      - 128

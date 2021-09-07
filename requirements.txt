@@ -1,0 +1,2 @@
+tensorflow-recommenders==0.4.0
+scann==1.2.1

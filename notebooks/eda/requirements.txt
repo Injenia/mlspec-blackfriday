@@ -1,0 +1,4 @@
+altair==4.1.0
+matplotlib==3.4.1
+seaborn==0.11.1
+pandas-profiling==2.11.0

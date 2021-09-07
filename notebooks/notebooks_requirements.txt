@@ -1,0 +1,4 @@
+tensorflow-recommenders==0.4.0
+scann==1.2.1
+pandas==1.2.4
+# [!] facet is missing
