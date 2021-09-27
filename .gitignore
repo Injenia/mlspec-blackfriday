@@ -60,3 +60,5 @@ report/*
 dataset/*
 !dataset/sync.sh
 notebooks/ml/models/*
+
+.venv
